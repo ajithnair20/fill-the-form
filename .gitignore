@@ -1,0 +1,9 @@
+/.idea
+*/logs.txt
+*/logs
+*Config.py
+*/sso-study-data.json
+*/SAToken.json
+__pycache__/
+.vscode/
+venv/

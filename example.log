@@ -1,0 +1,31 @@
+INFO:root:Crawling URL: file:///home/ajith/Projects/course-project-team_nair_mohanty/utilities/test.html
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:35117/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:35117
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "POST /session HTTP/1.1" 200 681
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/window/maximize {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "POST /session/01efeec2b8d7aa367cf6bfd6860fc02f/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/url {"url": "file:///home/ajith/Projects/course-project-team_nair_mohanty/utilities/test.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "POST /session/01efeec2b8d7aa367cf6bfd6860fc02f/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/source {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "GET /session/01efeec2b8d7aa367cf6bfd6860fc02f/source HTTP/1.1" 200 458
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/element {"using": "css selector", "value": "[name=\"alert\"]"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "POST /session/01efeec2b8d7aa367cf6bfd6860fc02f/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/element/547b8c94-2185-4f44-a3a0-51b2356490ab/click {"id": "547b8c94-2185-4f44-a3a0-51b2356490ab"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "POST /session/01efeec2b8d7aa367cf6bfd6860fc02f/element/547b8c94-2185-4f44-a3a0-51b2356490ab/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Clicked Submit Button
+INFO:root:Alert Message
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/alert/text {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "GET /session/01efeec2b8d7aa367cf6bfd6860fc02f/alert/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/alert/text {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "GET /session/01efeec2b8d7aa367cf6bfd6860fc02f/alert/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:35117/session/01efeec2b8d7aa367cf6bfd6860fc02f/alert/text {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:35117 "GET /session/01efeec2b8d7aa367cf6bfd6860fc02f/alert/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
