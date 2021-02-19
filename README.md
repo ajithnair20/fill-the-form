@@ -7,7 +7,7 @@ The project aims at creating an automated tool to fill web forms with valid inpu
 #### Setting Codebase and running Application
 Open a terminal and clone the repository by using the following command:
 ```sh
-$ git clone https://github.com/UIC-CS568/course-project-team_nair_mohanty.git
+https://github.com/ajithnair20/fill-the-form.git
 ```
 Traverse to the root directory of the project in a terminal window and execute the below commands:
 ```sh
